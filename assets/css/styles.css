@@ -871,7 +871,11 @@ about
 promotion
 ---------------------------------------------
 */
-
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 .left-image-decor {
   background-image: url(../images/left4.png);
   background-repeat: no-repeat;
