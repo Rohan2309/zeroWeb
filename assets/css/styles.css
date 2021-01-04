@@ -351,6 +351,19 @@ header
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
+.header-area .main-nav .logotwo {
+  line-height: 85px;
+  color: #191a20;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  float: right;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
 
 .header-area .main-nav .nav {
   float: left;
@@ -632,6 +645,10 @@ header
   .header-area .logo {
     margin-left: 30px;
   }
+  .header-area .logotwo {
+    margin-right: 30px;
+  }
+
   .header-area .menu-trigger {
     display: block !important;
   }
